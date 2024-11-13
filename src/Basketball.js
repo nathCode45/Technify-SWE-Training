@@ -7,8 +7,19 @@ function Basketball(){
     const goToHome = () => {
         navigate('/');
     }
+
+    const styles = {
+        container:{
+            textAlign: 'center',
+            color: '#FFFFFF',
+            padding: '20px',
+            backgroundColor: '#00539b'
+        }
+    }
+
+
     return(
-        <div>
+        <div style = {styles.container}>
             <h1>Basketball</h1>
             <button onClick={goToHome}>Home</button>
         </div>
