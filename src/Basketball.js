@@ -58,6 +58,8 @@ function Basketball(){
             <section style ={styles.section}>
                 <h2>Team Statistics</h2>
                 <img src="/bball_huddle.jpg" alt="Basketball Huddle" style={styles.image} />
+                <img src="/bball_top_ppg.jpg" alt="Chart of Top 5 Scoring Duke MBB players" style={styles.image} />
+
             </section>
 
             
