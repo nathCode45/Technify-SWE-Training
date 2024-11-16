@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Button from './Msoccomponents/Button';
-import './MSoccer.css';
 
 function MSoccer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,7 +11,99 @@ function MSoccer() {
 
   return (
     <div className='react'>
+        <style>{`
+        @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700|Open+Sans:400,400i,700');
 
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: 'EB Garamond', sans-serif;
+        }
+
+        .header {
+          display: flex;
+          width: 100%;
+          font-size: 50px;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 5px;
+          overflow: auto;
+          min-height: 150px;
+          border: 5px solid blue;
+          padding: 20px;
+          background-color: blue;
+          color: white;
+        }
+
+        .stat-container {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 100px;
+        }
+
+        .image {
+          width: 50%;
+          height: auto;
+          margin-right: 20px;
+          max-width: 50%;
+          margin-left: 20px;
+        }
+
+        .text {
+          width: 50%;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+
+
+        .react {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .btn {
+          padding: 10px 20px;
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 16px;
+          margin-top: 20px;
+          border-radius: 5px;
+        }
+
+        .btn:hover {
+          background-color: #45a049;
+        }
+
+        .button-container {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          margin: 20px;
+        }
+
+        .extra-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        }
+
+        .content {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      `}</style>
       <header className="header">Duke Men's Soccer Statistics</header>
 
       <div className='content'>
